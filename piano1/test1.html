@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test Piano</title>
+        <style>
+            #button{
+                background-color:rgba(146, 143, 143, 0.945);
+                width:2cm;
+                height:15cm;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1 style="width:100%;text-align:center;">click or keyboard</h1>
+            <div id="button">q<br>a<br>z</div>
+        </main>
+       <audio id="keysound" src=""></audio>
+    </body>
+    <script>
+        var keysound=document.getElementById('keysound');
+        keysound.autoplay='autoplay';
+        var test1=document.getElementById('button');
+        // mouise click
+        test1.addEventListener('mousedown',function(){
+            test1.style.boxShadow='1px 1px 5px black inset';
+            keysound.src='sound/test.oga';
+        })
+        test1.addEventListener('mouseup',function(){
+            test1.style.boxShadow='none';
+        })
+        // keyboard key up down
+        window.onkeydown=function(e){
+           if(e.key=='q' || e.key=='a' || e.key=='z'){
+               test1.style.boxShadow='1px 1px 5px black inset';
+               keysound.src='sound/test.oga';
+        } 
+        window.onkeyup=function(e){
+           test1.style.boxShadow='none';
+        }
+    }
+    </script>
+</html>
