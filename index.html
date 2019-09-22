@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homepage</title>
+</head>
+<body onselectstart="return false;">
+    <header>
+        <div id="logo">
+            <img src="" alt="logo">
+        </div>
+
+        <div id="searchBar">
+            searchBar
+        </div>
+
+        <div id="sign">
+            <a href="" id="signIn">Sign in</a>
+            &#160&#160|&#160&#160
+            <a href="" id="signUp">Sign up</a>
+        </div>
+    </header>
+
+    <main>
+        <aside class="album">
+            <div>
+                <img id="cover1" src="./img/1.jpg" ondrag="" ondragstart="drag(event)">
+                <img src="./img/album.png" alt="">
+                <div>
+                    <p>Soldiers of the Willow</p>
+                    <p>Zelman & Alerto</p>
+                    <p>★ ★ ★ ★ ★</p>
+                </div>
+            </div>
+            <div class="current">
+                <img id="cover2" src="./img/2.jpg" ondrag="" ondragstart="drag(event)">
+                <img src="./img/album.png" alt="">
+                <div>
+                    <p>Brothers in Arms Patriotic Song</p>
+                    <p>- -</p>
+                    <p>★ ★ ☆ ☆ ☆</p>
+                </div>
+            </div>
+            <div>
+                <img id="cover3" src="./img/3.jpg" ondrag="" ondragstart="drag(event)">
+                <img src="./img/album.png" alt="">
+                <div>
+                    <p>The Day of Victory Song</p>
+                    <p>Gollmick & Ernest</p>
+                    <p>★ ★ ★ ★ ☆</p>
+                </div>
+            </div>
+            <div>
+                <img id="cover4" src="./img/4.jpg" ondrag="" ondragstart="drag(event)">
+                <img src="./img/album.png" alt="">
+                <div>
+                    <p>Hear Our Soldiers'cry</p>
+                    <p>Harrison & Lorna Maud</p>
+                    <p>★ ★ ★ ☆ ☆</p>
+                </div>
+            </div>
+            <div>
+                <img id="cover5" src="./img/5.jpg" ondrag="" ondragstart="drag(event)">
+                <img src="./img/album.png" alt="">
+                <div>
+                    <p>Boys of Australia</p>
+                    <p>Caves.J.T.(John Thomas).</p>
+                    <p>★ ★ ★ ★ ☆</p>
+                </div>
+            </div>
+        </aside>
+
+        <section class="player">
+                <div id="music">
+                    <div>
+                        <div ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <div id="rotatedRecord">
+                                <img src="./img/2.jpg" id="musicCover">
+                                <img src="./img/record.png" id="recordShell">
+                            </div>
+                            <img src="./img/sensor.png" id="sensor">
+                        </div>
+                        <audio src="./mp3/2.mp3" controls id="audio"></audio>
+                        <div class="btn">
+                            <button id="favorite"><img src="img/fav1.png"></img></button>
+                            <button id="prev"><img src="img/previous.png"></img></button>
+                            <button id="play"><img id="playImg" src="img/play.png"></img></button>
+                            <button id="pause"><img id="pauseImg" src="img/pause.png"></img></button>
+                            <button id="next"><img src="img/next.png"></img></button>
+                            <a id="piano" href="piano.php?id=2"><img src="img/piano.png"></img></a>
+                        </div>
+                        <div class="progress">
+                            <span class="start"></span>
+                            <div class="progress_bar">
+                                <div class="now"></div>
+                            </div>
+                            <span class="end"></span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <aside class="lyric">
+                    <h3>Brothers in Arms</h3>
+                    <p>the rolling thunder, clouds of war,</p>
+                    <p>Appear just now to quite obscure the sky;</p>
+                    <p>And yet, despite how black they are,</p>
+                    <p>we do not fear, nor feel uncertainty,</p>
+                    <p>As, for England, home and beauty,</p>
+                    <p>We will always do our duty,</p>
+                    <p>And support our gracious Queen when she may need us.</p>
+                    <p>And our loyal hearts shall guid,</p>
+                    <p>Gainst the foe what're betide us,</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+                    <p>1111111111111111111111111111111111111111111111</p>
+        </aside>
+    </main>
+</body>
+
+<script>
+    // play
+    play.onclick = function(){
+        if(audio.paused){
+            audio.play();
+            pause.style.display = "initial";
+            pauseImg.style.display = "initial";
+            play.style.display = "none";
+            playImg.style.display = "none";
+        }
+    }
+    
+    // pause
+    pause.onclick = function(){
+        if(audio.played){
+            audio.pause();
+            playImg.style.display = "initial";
+            play.style.display = "initial";
+            pauseImg.style.display = "none";
+            pause.style.display = "none";
+            document.getElementById("sensor").setAttribute("class", "");
+            document.getElementById("rotatedRecord").setAttribute("class", "");
+        }
+    }
+    
+    var num=2;
+    var len=5; // the number of musics;
+    var bgImage = document.getElementById("musicCover");
+    
+    //prev
+    prev.onclick = function(){
+        if(num>1){
+            num = num - 1;
+        }
+        else{
+            num=len;
+        }
+        audio.src = './mp3/' + num + '.mp3';
+        bgImage.style.backgroundImage = 'url(./img/' + num + '.jpg)';
+        musicCover.src = './img/' + num + '.jpg';
+        audio.play();
+        pause.style.display = "initial";
+        pauseImg.style.display = "initial";
+        play.style.display = "none";
+        playImg.style.display = "none";
+        document.getElementsByClassName("current")[0].setAttribute("class", "");
+        document.getElementById("cover" + num).parentElement.setAttribute("class", "current"); 
+        document.getElementById("piano").setAttribute("href","piano.php?id="+ picNo);   
+    }
+
+    // next
+    next.onclick = function(){
+        if(num<len){
+            num = num + 1;
+        }
+        else{
+            num=1;
+        }
+        audio.src = './mp3/' + num + '.mp3';
+        bgImage.style.backgroundImage = 'url(./img/' + num + '.jpg)';
+        musicCover.src = './img/' + num+ '.jpg';
+        audio.play();
+        pause.style.display = "initial";
+        pauseImg.style.display = "initial";
+        play.style.display = "none";
+        playImg.style.display = "none";
+        document.getElementsByClassName("current")[0].setAttribute("class", "");
+        document.getElementById("cover" + num).parentElement.setAttribute("class", "current");  
+        document.getElementById("piano").setAttribute("href","piano.php?id="+ picNo);
+    }
+
+    // auto next music
+    audio.addEventListener('ended',function(){
+        next.onclick();
+    },false);
+
+    audio.addEventListener("playing", function(){
+        document.getElementById("sensor").setAttribute("class", "working");
+        document.getElementById("rotatedRecord").setAttribute("class", "working");
+    },false);
+    
+    // rewrite the playbar
+    var start = document.querySelector('.start')
+    var end = document.querySelector('.end')
+    var progressBar = document.querySelector('.progress_bar')
+    var now = document.querySelector('.now')
+    
+    function conversion (value) {
+        let minute = Math.floor(value / 60)
+        minute = minute.toString().length === 1 ? ('0' + minute) : minute
+        let second = Math.round(value % 60)
+        second = second.toString().length === 1 ? ('0' + second) : second
+        return `${minute}:${second}`
+    }
+    
+    // audio.onloadedmetadata = function () {
+    //     end.innerHTML = conversion(audio.duration)
+    //     start.innerHTML = conversion(audio.currentTime)
+    // }
+    
+    progressBar.addEventListener('click', function (event) {
+        let coordStart = this.getBoundingClientRect().left
+        let coordEnd = event.pageX
+        let p = (coordEnd - coordStart) / this.offsetWidth
+        now.style.width = p.toFixed(3) * 100 + '%'
+    
+        audio.currentTime = p * audio.duration
+        audio.play()
+    })
+    
+    setInterval(() => {
+        // start.innerHTML = conversion(audio.currentTime)
+        now.style.width = audio.currentTime / audio.duration.toFixed(3) * 100 + '%'
+    }, 1000);
+    
+
+    var picNo = 1;
+        // drag 
+    function allowDrop(ev)
+    {
+        ev.preventDefault();
+    }
+    
+    function drag(ev)
+    {
+        for (var j = 1; j <= 5; j++) {
+            if (ev.target.id == "cover" + j) {
+                picNo = j;
+            }
+        }
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+    
+    function drop(ev)
+    {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        if (data == "cover" + picNo) {
+            audio.src = './mp3/' + picNo + '.mp3';
+            bgImage.style.backgroundImage = 'url(./img/' + picNo + '.jpg)';
+            musicCover.src = './img/' + picNo + '.jpg';
+            audio.play();
+            pause.style.display = "initial";
+            pauseImg.style.display = "initial";
+            play.style.display = "none";
+            playImg.style.display = "none";  
+            document.getElementsByClassName("current")[0].setAttribute("class", "");
+            for (var i = 1; i <=5; i++) {
+                if (picNo == i) {
+                    document.getElementById("cover" + i).parentElement.setAttribute("class", "current");
+                }
+            }
+            document.getElementById("piano").setAttribute("href","piano.php?id="+ picNo);
+        }
+    }
+
+    // disable right click
+    document.oncontextmenu=function() {
+        return false;
+    }
+    
+</script>
+</html>

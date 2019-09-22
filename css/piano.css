@@ -1,0 +1,168 @@
+audio{
+    display:none;
+}
+* {
+	margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+
+header a {
+    color: black;
+    margin: 0 0 0 20px;
+}
+
+header p {
+    color: whitesmoke;
+}
+
+main h1 {
+    width:100%;
+    text-align:center;
+    margin: 0 0 10px 0;
+}
+#score{
+    position:relative;
+    top:0;
+    text-align:center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0
+}
+
+.pianoKey {
+    display: flex;
+}
+
+.pianoKey div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.white {
+    background-color: white;
+    width: 34px;
+    height: 166px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+}
+
+.black {
+    background-color: #333;
+    width: 26px;
+    height: 108px;
+    border: 1px solid black;
+    border-radius: 3px;
+    z-index: 9;
+}
+
+.pianoKey div p {
+    margin: 10px;
+}
+
+.pianoKey .white p {
+    margin-top: 130px;
+}
+
+.pianoKey .black p {
+    color: white;
+}
+
+#button1 {
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+}
+
+#button2 {
+    position: absolute;
+    bottom: 59px;
+    left: 821px;
+}
+
+#button3 {
+    position: absolute;
+    bottom: 0;
+    left: 834px;
+}
+
+#button4 {
+    position: absolute;
+    bottom: 59px;
+    left: 855px;
+}
+
+#button5 {
+    position: absolute;
+    bottom: 0;
+    left: 868px;
+}
+
+#button6 {
+    position: absolute;
+    bottom: 0;
+    left: 902px;
+}
+
+#button7 {
+    position: absolute;
+    bottom: 59px;
+    left: 923px;
+}
+
+#button8 {
+    position: absolute;
+    bottom: 0;
+    left: 936px;
+}
+
+#button9 {
+    position: absolute;
+    bottom: 59px;
+    left: 957px;
+}
+
+#button10 {
+    position: absolute;
+    bottom: 0;
+    left: 970px;
+}
+
+#button11 {
+    position: absolute;
+    bottom: 59px;
+    left: 991px;
+}
+
+#button12 {
+    position: absolute;
+    bottom: 0;
+    left: 1004px;
+}
